@@ -1,0 +1,4 @@
+This project uses json server
+please run the following commands on two seperate terminals:
+ng serve
+json-server --watch db.json

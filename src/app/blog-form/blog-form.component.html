@@ -1,0 +1,36 @@
+<h1>Add blog Form</h1>
+<div>
+    <form [formGroup]="blogForm">
+
+        <p>
+            <mat-form-field appearance="outline">
+                <mat-label>Blog Title</mat-label>
+                <input matInput placeholder="Placeholder" formControlName="title">
+              </mat-form-field>
+        </p>
+        <p>
+    
+            <mat-form-field appearance="outline">
+              <mat-label>Blog Content</mat-label>
+              <input matInput placeholder="Placeholder" formControlName="content">
+            </mat-form-field>
+        </p>
+        <p>
+    
+            <mat-form-field appearance="outline">
+              <mat-label>Blog Author</mat-label>
+              <input matInput placeholder="Placeholder" formControlName="author">
+            </mat-form-field>
+        </p>
+        <p>
+    
+            <mat-form-field appearance="outline">
+              <mat-label>Blog Description</mat-label>
+              <input matInput placeholder="Placeholder" formControlName="description" >
+            </mat-form-field>
+        </p>
+    </form>
+</div>
+<div>
+    <button mat-raised-button color="primary" (click)="addBlog()">Submit</button>
+</div>

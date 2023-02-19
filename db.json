@@ -1,0 +1,32 @@
+{
+  "blogsList": [
+    {
+      "title": "dfdf",
+      "content": "dffd",
+      "author": "dfdf",
+      "description": "dfdf",
+      "upvote": 10,
+      "downvote": 2,
+      "id": 1
+    },
+    {
+      "title": "frfrfr",
+      "content": "fff",
+      "author": "fff",
+      "description": "ff",
+      "upvote": 4,
+      "downvote": 4,
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
